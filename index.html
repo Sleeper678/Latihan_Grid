@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crushed&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+    <!-- ICON -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!--  -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Penthouse</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">SMA TI HSI IDN</h2>
+          <p class="sub-heading">Jago IT Pinter Ngaji</p>
+        </div>
+        <div class="feature feature-1">
+          <h4 class="program">Tahfidz</h4>
+          <p class="item">Ngaji</p>
+        </div>
+        <div class="feature feature-2">
+          <h4 class="program">IT</h4>
+          <p class="item">Laptop</p>
+        </div>
+      </header>
+      <nav class="menu">
+        <div class="menu-toggle">
+          <i class="ph-bold ph-list"></i>
+        </div>
+        <div class="brand">
+          <h1>HSI IDN</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Gallery</a></li>
+        </ul>
+      </nav>
+      <section class="services">
+        <div class="service">
+          <div class="icon"><i class="ph ph-book-open-text"></i></div>
+          <h3>Tahfidz</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+            porro soluta nemo fugit ex ipsa.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="ph ph-laptop"></i></div>
+          <h3>IT</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+            porro soluta nemo fugit ex ipsa.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="ph ph-chats-teardrop"></i></div>
+          <h3>Language</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+            porro soluta nemo fugit ex ipsa.
+          </p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="ph ph-books"></i></div>
+          <h3>Dinyyah</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat,
+            porro soluta nemo fugit ex ipsa.
+          </p>
+        </div>
+      </section>
+      <section class="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/600x600/?school/" />
+        <img src="https://source.unsplash.com/random/600x600/?library/" />
+        <img src="https://source.unsplash.com/random/600x600/?lab/" />
+        <img src="https://source.unsplash.com/random/600x600/?book/" />
+        <img src="https://source.unsplash.com/random/600x600/?class/" />
+        <img src="https://source.unsplash.com/random/600x600/?hall/" />
+      </section>
+      <section class="quote">
+        <div class="quran">
+          <div class="card">
+            <img src="img/quran.jpg" alt="" />
+            <h3>Kuota terbatas untuk 200 orang</h3>
+          </div>
+          <h2>Beasiswa Full untuk anak yatim dan dhuafa'</h2>
+        </div>
+      </section>
+    </div>
+    <footer>© Copyright 2023 Jiva Dharma Andika</footer>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector("nav ul");
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
